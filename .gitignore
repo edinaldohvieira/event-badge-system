@@ -1,0 +1,25 @@
+# Variáveis de ambiente e segredos locais
+.env
+.env.local
+*.env
+
+# Arquivos gerados e testes locais
+badge-service/src/output/*
+!badge-service/src/output/.gitkeep
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Dependências (caso venha a usar Composer ou NPM no futuro)
+vendor/
+node_modules/
+
+# Arquivos de sistema operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,29 @@
+services:
+  php-app:
+    image: php:8.3-apache
+    container_name: cracha-php
+    command: bash -c "apt-get update && apt-get install -y libpng-dev && docker-php-ext-install gd && apache2-foreground"
+    ports:
+      - "8080:80"
+    environment:
+      # Token que o WordPress precisará enviar no cabeçalho Authorization
+      - API_SECRET_TOKEN=PVKQPQXUHSH4mxYc92TL2hu4rpNsImVbDznKIxdzfCbXpX7xQTLc2wK3pg3btquB
+    volumes:
+      - ./src:/var/www/html
+    networks:
+      - cracha-internal-net
+      - eventos-shared-net
+
+  chrome-renderer:
+    image: ghcr.io/browserless/chromium:latest
+    container_name: cracha-chrome
+    environment:
+      - MAX_CONCURRENT_SESSIONS=5
+    networks:
+      - cracha-internal-net # Fica isolado apenas na rede interna deste serviço
+
+networks:
+  cracha-internal-net:
+    driver: bridge
+  eventos-shared-net:
+    external: true
