@@ -2,6 +2,8 @@
 
 Sistema completo e desacoplado para gestão multi-organização de eventos, credenciamento de participantes, geração de crachás em alta definição (`1200x1800px`) com QR Code dinâmico e validação de check-in na portaria.
 
+![Exemplo de Crachá](./docs/images/exemplo-de-cracha-gerado.png)
+
 ## Arquitetura do Projeto
 
 O sistema é dividido em dois módulos independentes que se comunicam via rede interna Docker (`eventos-shared-net`) através de requisições HTTP REST (`POST` JSON com autenticação Bearer Token):
