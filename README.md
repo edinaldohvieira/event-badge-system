@@ -95,4 +95,4 @@ Crie páginas no WordPress e insira os seguintes shortcodes conforme o fluxo des
 
 ## Licença
 
-Este projeto é distribuído sob a licença MIT. Sinta-se livre para usar, modificar e adaptar conforme as necessidades dos seus eventos.
+Este projeto é distribuído sob a licença GPLv2. Sinta-se livre para usar, modificar e adaptar conforme as necessidades dos seus eventos.
