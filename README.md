@@ -2,13 +2,16 @@
 
 Sistema completo e desacoplado para gestão multi-organização de eventos, credenciamento de participantes, geração de crachás em alta definição (`1200x1800px`) com QR Code dinâmico e validação de check-in na portaria.
 
-Exemplo de Crachá gerado com o plugin do WordPress
+Exemplo de **Crachá** gerado com o **plugin do WordPress**
+
 ![Exemplo de Crachá](./docs/images/exemplo-de-cracha-gerado.png)
 
 Exemplo: Imagem de tela do **Painel do Gestor** no **plugin do WordPress**
+
 ![Painel do Gestor](./docs/images/exemplo-painel-do-gestor.png)
 
 Exemplo: Imagem de **Tela de portaria** no **plugin do WordPress**
+
 ![Tela de portaria que confirma a presença do convidado](./docs/images/exemplo-da-tela-portaria.png)
 
 
