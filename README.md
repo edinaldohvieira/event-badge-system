@@ -93,6 +93,14 @@ Crie páginas no WordPress e insira os seguintes shortcodes conforme o fluxo des
 * **Isolamento do Chromium:** O container `chrome-renderer` não possui portas expostas para o host nem para redes externas, respondendo exclusivamente ao container `cracha-php`.
 * **Token Bearer:** Todas as requisições à API exigem o cabeçalho `Authorization: Bearer <TOKEN>`.
 
+## Suporte Comercial, Instalação e Geração sob Demanda
+
+• Instalação e configuração completa em servidor VPS/Cloud.
+• Personalização visual do template HTML/CSS do crachá com a identidade do evento.
+• Serviço terceirizado de geração de crachás em lote prontos para gráfica.
+• Canais diretos de contato (link direto para o seu WhatsApp comercial, e-mail ou formulário da página /contato do Base Box).
+
+
 ## Licença
 
 Este projeto é distribuído sob a licença GPLv2. Sinta-se livre para usar, modificar e adaptar conforme as necessidades dos seus eventos.
