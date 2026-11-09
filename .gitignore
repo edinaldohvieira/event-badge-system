@@ -4,12 +4,12 @@
 *.env
 
 # Arquivos gerados e testes locais
-badge-service/src/output/*
-!badge-service/src/output/.gitkeep
-*.png
-*.jpg
-*.jpeg
-*.pdf
+#badge-service/src/output/*
+#!badge-service/src/output/.gitkeep
+#*.png
+#*.jpg
+#*.jpeg
+#*.pdf
 
 # Dependências (caso venha a usar Composer ou NPM no futuro)
 vendor/
